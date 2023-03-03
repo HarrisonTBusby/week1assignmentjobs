@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Glory;
+  src: url('./assets/fonts/Glory-VariableFont_wght.ttf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.backgroundImg{
+background-image: url('./assets/background.png');
+background-size: 100%;
+background-repeat: no-repeat;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.boxBackground1{
+  background-color: #A47878 !important;
+  padding-top: 10px !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  padding-bottom: 10px !important;
+  width: 500px !important;
+  font-family: Glory !important;
+  color: white !important;
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.boxBackground1Btn{
+  background-color: #A47878 !important;
+  padding: 10px 40px !important;
+  font-family: Glory !important;
+  font-weight: bolder;
+  color: white !important;
+  font-size: 30px;
+  width: 475px;
+  height: 135px;
+  border: #947676;
+  border-radius: 30px;
+  text-align: center !important;
+}
+.boxBackground1Btn:hover{
+  background-color: gray !important;
+}
+
+.boxBackground2Btn{
+  background-color: #947676 !important;
+  padding: 10px 40px !important;
+  font-family: Glory !important;
+  font-weight: bolder;
+  color: white !important;
+  font-size: 30px;
+  width: 475px;
+  height: 135px;
+  border: #947676;
+  border-radius: 30px;
+  text-align: center !important;
+}
+
+.boxBackground2Btn:hover{
+  background-color: gray !important;
+}
+
+.boxBackground2{
+  background-color: #947676 ;
+}
+
+.alignRight{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: right;
 }
 
-.App-link {
-  color: #61dafb;
+.alignLeft{
+  display: flex;
+  justify-content: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.paddingBtm1{
+  padding-bottom: 200px;
 }

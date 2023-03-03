@@ -1,0 +1,18 @@
+import { Button, Form, Row, Col, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import { useState } from 'react';
+
+export default function Job3Component3() {
+    return (
+      <>
+        <body className='backgroundImg'>
+        <Row className='alignRight'>
+       <Button as={Link} to='/' className='boxBackground2Btn'>Home</Button>
+            </Row>
+    </body>
+      </>
+    );
+  }
+  
+
+  
